@@ -9,3 +9,4 @@ models/*
 !models/.gitkeep
 data/uploads/*
 !data/uploads/.gitkeep
+data/*.db

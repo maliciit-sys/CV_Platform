@@ -16,3 +16,6 @@ TOP_K = 3
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 UPLOADS_DIR = PROJECT_ROOT / "data" / "uploads"
 MODELS_DIR = PROJECT_ROOT / "models"
+
+# Where prediction history is stored (SQLite file).
+DB_PATH = PROJECT_ROOT / "data" / "predictions.db"
